@@ -221,4 +221,6 @@ resource "aws_api_gateway_model" "contact_me_model" {
   })
 }
 
-
+resource "aws_ses_email_identity" "example" {
+  email = "huytrannhat.900@gmail.com"
+}
